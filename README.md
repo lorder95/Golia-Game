@@ -1,23 +1,9 @@
-# Blank Project
----
+Description of the game:
 
-*Copyright (C) 2017 Improbable Worlds Limited. All rights reserved.*
+The basic gameplay involves collecting items that increases the size of the player, that has the shape of a ball. The goal of the game is reaching a fixed size before the others players and to gain an advantage it is possible to hit smaller players to destroy them and steal some of their size.
 
-- *GitHub repository*: [https://github.com/spatialos/BlankProject](https://github.com/spatialos/BlankProject)
+It will be possible to connect to the game at any stage of it, when the target size is reached the game will restart.
 
----
+The map will be composed by obstacles and narrow streets that will help smaller players to escape from the bigger ones.
 
-## Introduction
-
-This is a blank SpatialOS project that you can use to build your own SpatialOS application.
-
-It contains:
-
-* A SpatialOS project descriptor.
-* A Unity worker.
-* Bare-bones Launch Configurations for automatically and manually launching workers.
-* Bare-bones Client and Physics Scenes with a `Bootstrap.cs` file.
-* An example deployment configuration, `default_launch.json`.
-* `.gitignore` files for a SpatialOS project.
-
-If you run into problems, or want to give us feedback, please visit the [SpatialOS forums](https://forums.improbable.io/).
+Upon death the player will just respawn at the minimum size and will start again the race for the maximum size.
